@@ -6,8 +6,6 @@ using UnityEngine.SceneManagement;
 
 public class MenuUI : MonoBehaviour
 {
-    [SerializeField] private Button startButton;
-
     public void StartButton()
     {
         SceneManager.LoadScene(1);
